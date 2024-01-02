@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-high-tech-business-meeting-year-end-meeting-poster-banner-picture-image_1110958.jpg);
+    background-size: cover;
+    margin:0;
+  }
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(227, 80, 171, 0.189);
+  }
+  
+  .topnav a {
+    float: right;
+    color: rgba(33, 32, 32, 0.822);
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: #72acacec;
+    color:rgb(43, 44, 44);
+  }
+.container{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin: 25px;
+    padding: 20px;
+}
+.box1 img{
+    height:280px;
+    width:250px;
+}
+.box2 img{
+    height:350px;
+    width:300px;
+}
+.box3 img{
+    height:280px;
+    width:250px;
+}
+.container .box1 .center1{
+  transform: translate(10%,-300%);
+  color:aliceblue;
+}
+
+.container .box1 .center12{
+  transform: translate(10%,-300%);
+  color:aliceblue;
+}
+
+.container .box2 .center2{
+  transform: translate(10%,-300%);
+  color:rgb(44, 47, 50);
+}
+.container .box2 .center22{
+  transform: translate(10%,-300%);
+  color:rgb(44, 47, 50);
+}
+
+.container .box3 .center3{
+  transform: translate(10%,-300%);
+  color:rgb(3, 12, 24);
+}
+.container .box3 .center32{
+  transform: translate(10%,-300%);
+  color:rgb(3, 12, 24);
+}

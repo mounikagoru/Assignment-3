@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-high-tech-business-meeting-year-end-meeting-poster-banner-picture-image_1110958.jpg);
+    background-size: cover;
+    margin:0;
+  }
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(227, 80, 171, 0.189);
+  }
+  
+  .topnav a {
+    float: right;
+    color: rgba(33, 32, 32, 0.822);
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    background-color: #72acacec;
+    color:rgb(43, 44, 44);
+  }
+
+
+
+.container{
+    display:flex;
+    /* background-color: darkolivegreen; */
+    align-content: center;
+    justify-content: center;
+}
+.container div{
+/* background-color: aquamarine;  */
+align-items: center;
+margin:20px;
+width:100%;
+padding:20px;
+}
+
+h2{
+    font-size: 35px;
+    color: chartreuse;
+}
+h5{
+    font-size:15px;
+    color:darkslategray;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    margin:10px;
+    background-color: darksalmon;
+    border-radius: 10px;
+    border: 2px solid rgb(54, 53, 53);
+}
+.btn:hover{
+    background-color: plum;
+    transition: 0.8s;
+}
+img{
+    max-height: 350px;
+    max-width: 90%;
+    padding: 30px;
+    justify-content: right;
+    border-radius: 10px;;
+}
+
+
